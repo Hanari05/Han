@@ -26,7 +26,7 @@
 - [📖Software Engineering Project – Mini App Quản Lý Chấm Công Nhân Viên](https://github.com/Lanne-0402/Nhap-mon-CNPM)
 
 ## 📇 Trang web của tôi
-- [✨️Profile của tôi](https://hanari05.github.io/Han/)
+- [🪄Profile của tôi](https://hanari05.github.io/Han/)
 
 ---
 
