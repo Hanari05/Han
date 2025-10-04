@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Ngọc Gia Hân | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Nguyễn Ngọc Gia Hân</h1>
+    <h2>Fresher Software Engineer | Game Designer</h2>
+    <p>
+      I am an enthusiastic Software Engineer passionate about building creative, responsive, and user-friendly interfaces.
+      I enjoy blending design and technology to craft engaging digital experiences.
+    </p>
+
+    <nav>
+      <button class="tablink active" onclick="openTab(event, 'Home')">Home</button>
+      <button class="tablink" onclick="openTab(event, 'About')">About</button>
+      <button class="tablink" onclick="openTab(event, 'Resume')">Resume</button>
+      <button class="tablink" onclick="openTab(event, 'Portfolio')">Portfolio</button>
+      <button class="tablink" onclick="openTab(event, 'Contact')">Contact</button>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="Home" class="tabcontent" style="display:block;">
+    <h3>Welcome!</h3>
+    <p>Hello, I’m <b>Nguyễn Ngọc Gia Hân</b> — a web designer and developer from Vietnam.  
+       I specialize in crafting clean, modern, and responsive websites that connect with users.</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="About" class="tabcontent">
+    <h3>About me</h3>
+    <p>
+      I am a reliable and creative person with a strong sense of responsibility and teamwork.  
+      I adapt well to challenges, enjoy learning new technologies, and thrive under deadlines.
+      I am passionate about game design and web development, always eager to create engaging digital experiences.
+      I am currently pursuing a Bachelor's degree in Multimedia Technology at the Posts and Telecommunications Institute of Technology (PTIT).
+      I am excited to contribute my skills and enthusiasm to a dynamic team.  
+
+      <b>Let's connect and create something amazing together!</b>
+    </p>
+    <p>
+      <a href="#">My Curriculum Vitae</a> | <a href="#">My hobbies</a>
+    </p>
+  </section>
+
+  <!-- RESUME -->
+  <section id="Resume" class="tabcontent">
+    <h3 class="highlight">EXPERIENCE</h3>
+    <p><b>Fresher Web Developer</b> | PTIT — <i>2023–2028</i></p>
+    <ul>
+      <li>Assisted in front-end development projects and design mockups.</li>
+      <li>Maintained and optimized existing client websites.</li>
+    </ul>
+
+    <p><b>Fresher Frontend Designer</b> | Freelancer — <i>2025–Present</i></p>
+    <ul>
+      <li>Develop responsive websites using HTML, CSS, JavaScript, and React.</li>
+      <li>Collaborate with designers to bring creative concepts to life.</li>
+      <li>Focus on UI/UX improvements and accessibility.</li>
+    </ul>
+
+    <h3 class="highlight">EDUCATION</h3>
+    <p><b>Engineer of Multimedia Technology</b> | Posts and Telecommunications Institute of Technology (PTIT) — <i>2023–2028</i></p>
+    <ul>
+      <li>Relevant Coursework: Web Development, UI/UX Design, Graphic Design, Digital Media.</li>
+      <li>Activities: Member of the Multimedia Club, participated in hackathons and design competitions.</li>
+      <li>GPA: 3.3/4.0 | achieved high scores in specialized subjects such as: Interactive Design, Web Design,...</li>
+    </ul>
+
+    <h3 class="highlight">SOFT KILLS</h3>
+    <ul>
+      <li>Teamwork and Collaboration</li>
+      <li>Problem-Solving</li>
+      <li>Adaptability</li>
+      <li>Time Management</li>
+      <li>Creativity</li>
+    </ul>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="Portfolio" class="tabcontent">
+    <h3>My Projects</h3>
+    <p>Here are some of my recent works:</p>
+    <ul>
+      <li><b>MiniApp Attendance System</b> — A Mini-App to manage employee check-in/out data.</li>
+      <li><b>Personal Portfolio</b> — A modern and responsive developer portfolio.</li>
+      <li><b>UI Design Library</b> — A custom design component set for web apps.</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="Contact" class="tabcontent">
+    <h3>Contact Me</h3>
+    <p>View my digital name card: <a href="#">eNameCard</a></p>
+    <p><b>Contact Details</b></p>
+    <p>
+      Nguyễn Ngọc Gia Hân<br>
+      Ho Chi Minh City, Vietnam<br>
+      (+84) 396 763 655<br>
+      <a href="mailto:giahan1835@gmail.com">giahan1835@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/hanari05"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/h%C3%A2n-nguy%E1%BB%85n-0b9b96322/"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/giahanari"><i class="fab fa-facebook"></i></a>
+    </div>
+    <p>© 2025 Nguyễn Ngọc Gia Hân</p>
+  </footer>
+
+  <script>
+    function openTab(evt, tabName) {
+      const tabcontent = document.getElementsByClassName("tabcontent");
+      for (let i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      const tablinks = document.getElementsByClassName("tablink");
+      for (let i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.classList.add("active");
+    }
+  </script>
+</body>
+</html>
