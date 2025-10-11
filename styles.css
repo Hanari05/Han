@@ -101,7 +101,7 @@ footer {
   flex-direction: column;
   gap: 12px;
   max-width: 400px;
-  margin: 20px auto;
+  margin: 1px;
 }
 
 .contact-form input,
@@ -125,7 +125,7 @@ footer {
   width: fit-content;
   background-color: #007bff;
   color: white;
-  font-weight: 400;
+  font-weight: 200;
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
