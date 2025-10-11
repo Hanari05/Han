@@ -100,7 +100,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 600px;
+  max-width: 400px;
   margin: 20px auto;
 }
 
@@ -117,15 +117,15 @@ footer {
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #4a7c59;
-  box-shadow: 0 0 4px rgba(74, 124, 89, 0.3);
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(74, 119, 124, 0.3);
 }
 
 .contact-form button {
   width: fit-content;
-  background-color: #4a7c59;
+  background-color: #007bff;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
@@ -134,5 +134,5 @@ footer {
 }
 
 .contact-form button:hover {
-  background-color: #3b6045;
+  background-color: #007bff;
 }
