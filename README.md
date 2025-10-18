@@ -27,7 +27,7 @@
 - [🎧 Music Streaming Web App – Ứng dụng web phát nhạc / streaming nhạc](https://github.com/Hanari05/music-streaming-spec.git)
 
 ## 📇 Trang web của tôi
-- [🎗 Profile của tôi](https://hanari05.github.io/Han/)
+- [🎗 Profile của tôi](https://hanari05.github.io/profile/)
 
 ---
 
